@@ -13,7 +13,7 @@ For each auto-update, the controller does the following:
 ```java
 final AutoUpdateController autoUpdate = new AutoUpdateController();
 autoUpdate.setClassLocation(classLocation);
-autoUpdate.setMainClass("com.ethanjcohen.infoserver.Server");
+autoUpdate.setMainClass("com.testautoupdate.myserver");
 		
 autoUpdate.start();
 ```
