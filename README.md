@@ -10,9 +10,10 @@ For each auto-update, the controller does the following:
 2. Reload the main class
 3. Execute .start() on the loaded class
 
-
+```java
 final AutoUpdateController autoUpdate = new AutoUpdateController();
 autoUpdate.setClassLocation(classLocation);
 autoUpdate.setMainClass("com.ethanjcohen.infoserver.Server");
 		
 autoUpdate.start();
+```
